@@ -1,0 +1,98 @@
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family:' kalnia', serif ;
+  font-family: 'Poppins', Sans-Serif;
+}
+body{
+
+  display: flex ;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: black;
+  
+}
+.wrapper{
+  /*  height and width for desktop or laptop 420px*/
+  /* height and width  for all small device 330px */
+  height: 330px;
+  width:330px;
+  background: rgba(0,0,0,.8);
+  padding: 60px;
+  
+  border-radius: 10px;
+  position: relative;
+}
+.wrapper h2{
+  text-align: center;
+  color: #fff;
+  margin-bottom: 12px;
+}
+.wrapper .input-box{
+  position: relative;
+}
+.input-box input{
+  padding: 12px ;
+  width:100%;
+  background: transparent;
+  outline: none;
+  border:none;
+  border-bottom: 1px solid #fff;
+  margin-bottom: 30px;
+  color:#fff;
+  letter-spacing: 1px;
+  line-height: 1px;
+}
+.input-box label{
+  position: absolute;
+  top:0;
+  left: 0;
+  padding: 12px 0;
+  color:cyan;
+  transition: 0.5s;
+}
+.wrapper .btn{
+  padding: 4px 45px;
+  background: transparent;
+  border:none;
+  outline: none;
+  background: cyan;
+  border-radius: 4px;
+  color:#fff;
+  font-size: 18px;
+  font-weight:200px;
+  transition: .3s;
+}
+input:focus + label,
+input:valid + label{
+  top:-20px;
+  left: 0;
+  color:cyan;
+  letter-spacing:2px;
+  
+}
+.wrapper .btn:hover{
+  transform: scale(1.3);
+  
+}
+  
+}
+
+
+  
+  
+  
+
+  
+  
+
+  
+  
+  
+
+  
+  
+  
+  
