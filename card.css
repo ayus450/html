@@ -1,1 +1,71 @@
-dssdg
+/* Reset Css */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Arvo', serif;
+font-family: 'Baloo 2', sans-serif;
+font-family: 'Fira Sans Condensed', sans-serif;
+font-family: 'Josefin Sans', sans-serif;
+font-family: 'Kalnia', serif;
+font-family: 'Kanit', sans-serif;
+font-family: 'Poppins', sans-serif;
+}
+body{
+  background: #111;
+  color: #fff;
+}
+.card{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card-items{
+  width: 300px;
+  height:450px;
+  background: rgba(0,0,0,0.7);
+  border-radius: 15px;
+}
+.card-items:hover{
+  box-shadow: 0 0 50px #0ef;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.card-items h2{
+  margin-top: 17px;
+  text-align: center;
+  letter-spacing: 5px;
+  font-weight: 700px;
+}
+span{
+  color: #0ef;
+}
+.card-items p{
+  width: 90%;
+  font-size: 15px;
+  padding-left: 14px ;
+  margin-top: 20px;
+  
+  
+}
+.card-items .btn{
+  padding: 8px 30px;
+  border: none;
+  outline: none;
+  background: transparent;
+  background: #0ef;
+  letter-spacing: 3px;
+  font-weight: bold;
+  margin-left: 15px;
+  color: #fff;
+  font-size: 16px;
+  border-radius: 10px;
+  margin-top: 17px;
+  cursor: pointer;
+}
+  
+}
+
